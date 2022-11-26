@@ -1,5 +1,5 @@
 # Biblioteca-CSS3
-Algumas anotações e atividades gerais sobre css3 com alguns exemplos de execuções e suas finalidades comentadas, uma pequena biblioteca sobre CSS3 no geral
+Algumas anotações e atividades gerais sobre css3 com alguns exemplos de execuções e suas finalidades comentadas, uma pequena biblioteca sobre CSS3 no geral.
 
 ## -Exemplos-
 # Sobreposição de elementos
