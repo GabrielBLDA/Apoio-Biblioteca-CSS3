@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TAGS NOVAS INPUTS</title>
+		<meta charset="utf-8">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	</head>
+	<body>
+
+		<h2>TAGS NOVAS PARA INPUTS:</h2>
+		<form>
+
+			<!-- TEXT -->
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" autofocus><br><br><!-- AUTOFOCUS - DESTACA E DA "PRIORIDADE" PARA ESTE CAMPO NO FORMULARIO -->
+
+			<!-- EMAIL -->
+			<label for="email">Email</label>
+			<input type="email" id="email" required><br><br><!-- REQUIRED - "REQUER QUE PRENCHA TAL CAMPO" -->
+
+			<!-- NUMBER -->
+			<label for="numero">Número</label>
+			<input type="number" id="numero" min="5" max="10" step="5"><br><br><!-- MIN E MAX - DEFINE OS VALORES MINIMOS E MAXIMOS DO CAMPO "NUMBER" -->
+			<!-- STEP - PULA DE O NUMERO DE TANTO EM TANTO EX: DE 5 EM 5 NUMERO CASO STEP=5 -->
+
+			<!-- URL -->
+			<label for="url">Url</label>
+			<input type="url" id="url" placeholder="ex: http://www."><br><br><!-- PLACAHOLDER - INSERE UM TEXTO NEUTRO OU COMENTARIO NA BARRA DO CAMPO" -->
+
+			<!-- SEARCH-->
+			<label for="pesquisa">Pesquisa</label>
+			<input type="search" id="pesquisa"><br><br><!-- PESQUISA - DEFINE UM CAMPO PARA PESQUISA-->
+
+			<!-- RANGE -->
+			<label for="range">Range</label>
+			<input type="range" id="range" min="1" max="20" value="2"><br><br><!-- RANGE - DEFINE UM MARCADOR ONDE PODEMOS ARRASTAR DE UM LADO PARA O OUTRO AUMENTANDO OU DIMINUINDO SEU VALOR TOTAL-->
+			<!-- MIN E MAX/VALUE - DEFINE O VALOR MINIMO E MAXIMO PARA SER ARRASTADO. VALUE DEFINE O VALOR QUE COMEÇARA O RANGE -->
+
+			<!-- DATE -->
+			<label for="data">Data</label>
+			<input type="date" id="data"><br><br><!-- DATE - DIFENE O CAMPO COMO UMA CONFIGURAÇÃO DE DATA-->
+
+			<!-- COLOR -->
+			<label for="cor">Cor</label>
+			<input type="color" id="cor"><br><br><!-- COLOR - DEFINE UMA TABELA DE CORES INTERATIVA PARA O CAMPO-->
+
+			<!-- SUBMIT -->
+			<input type="submit" name="" value="Enviar"><!-- SUBMIT - DEFINE O BOTÃO DE ENVIAR/FINALIZAR O FORMULARIO-->
+
+		</form>
+
+	</body>
+</html>

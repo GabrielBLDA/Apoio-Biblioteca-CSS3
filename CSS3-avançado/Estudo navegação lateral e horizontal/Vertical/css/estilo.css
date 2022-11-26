@@ -1,0 +1,37 @@
+ul{
+	
+	margin: 0;
+	padding: 0;
+	width: 960px;
+}
+
+ul a{
+	/*border: 1px solid blue;*/
+	width: 200px;
+	height: 40px;
+	margin: 5px;
+	display: block;
+	text-indent: 60px;
+	line-height: 40px;
+	background: url(../imagens/menu.png) no-repeat;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-position:-200px;
+	color: #fff;
+}
+
+#menu #tabela-vertical .menu a,
+#sobre #tabela-vertical .sobre a,
+#contato #tabela-vertical .contato a,
+#noticia #tabela-vertical .noticia a{
+
+	background-position:-200px;
+	color: #fff;
+}
+

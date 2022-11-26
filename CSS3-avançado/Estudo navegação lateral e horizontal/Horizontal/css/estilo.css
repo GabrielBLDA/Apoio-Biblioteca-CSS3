@@ -1,0 +1,42 @@
+ul{
+/*	border: 1px solid red;*/
+	margin: 0;
+	padding: 0;		
+	list-style: none;
+	background: url(../imagens/fundo.png) repeat-x;
+	float: left;
+}
+
+ul li{
+	/*border: 1px solid blue;*/
+	float: left;
+}
+
+ul a{
+	/*border: 1px solid yellow;*/
+	display: block;
+	padding: 0 32px;
+	height: 22px;
+	line-height: 22px;
+	text-indent: -4px;
+	color: black;
+	background: url(../imagens/divisor.png) repeat-y;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	background: #6a6970;
+	color: #fff;
+}
+
+#menu #tabela-horizontal .menu a,
+#sobre #tabela-horizontal .sobre a,
+#contato #tabela-horizontal .contato a,
+#noticia #tabela-horizontal .noticia a{
+	background: #6a6970;
+	color: #fff;
+}
