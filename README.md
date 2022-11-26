@@ -10,3 +10,5 @@ Algumas anotações e atividades gerais sobre css3 com alguns exemplos de execu�
 ![tabelas](https://user-images.githubusercontent.com/86329011/204065402-8dda4e5d-44b4-44a4-a25c-bc66e2d4dc88.PNG)
 # Elementos Flutuantes
 ![elementos flutuantes](https://user-images.githubusercontent.com/86329011/204065409-5557f38c-37bf-4abe-95e0-12fbc03ddf7b.PNG)
+# Navegação com abas
+![abas](https://user-images.githubusercontent.com/86329011/204065649-8e43a823-bd9f-472b-9458-1ca3258ba56b.PNG)
